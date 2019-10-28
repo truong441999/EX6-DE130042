@@ -22,19 +22,19 @@ public class EX6SWEQS2 {
         String source = "I want to to go to the the the zoo";
         System.out.println("Real Output:");
         System.out.println(source.replaceAll("(.+?)\\1+", " Repeat "));
-        System.out.println("Input: ");
+        System.out.println("Input2: ");
         System.out.println("I want want go  the the the birth");
-        System.out.println("Expect Output:");
+        System.out.println("Expect Output2:");
         System.out.println("I  Repeat go Repeat birth");
         String th = "I want want go  the the the birth";
-        System.out.println("Real Output:");
+        System.out.println("Real Output2:");
         System.out.println(th.replaceAll("(.+?)\\1+", " Repeat "));
-        System.out.println("Input: ");
+        System.out.println("Input3: ");
         System.out.println("I love love you");
-        System.out.println("Expect Output:");
+        System.out.println("Expect Output3:");
         System.out.println("I  Repeat you");
         String t = "I love love you";
-        System.out.println("Real Output:");
+        System.out.println("Real Output3:");
         System.out.println(t.replaceAll("(.+?)\\1+", " Repeat "));
     }
 }
